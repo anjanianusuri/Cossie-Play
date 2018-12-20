@@ -1,0 +1,282 @@
+@charset "utf-8";
+*{
+	font-family: Calibri;
+	}
+body {
+	background-color: #F9F9F9;
+	color: #000000;
+	text-align: left;
+	}
+#MainHeader{
+	background: #F7CA18;
+	}
+header img {
+	width: 15%;
+	margin: 0px;
+	padding: 30px;
+	}
+#MainContainer {
+	margin-left:auto;
+	margin-right:auto;
+	width: 960px;
+	background-color:#FFFFFF;
+	min-height:600px;
+	}
+#Banner{
+	max-width: 100%;
+	max-height: 100%;
+	}
+#MainNav{
+	background-color:#222;
+	min-height: 50px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	}
+nav ul {
+	float: left;
+	}
+nav li {
+	list-style:none;
+	display:inline;
+	padding-right: 30px;
+	}
+nav li a {
+	color: #FFFFFF;
+	font-size: 16px;
+	text-decoration:none;
+	}
+nav li a:visited {
+	color: #F7CA18;
+	text-decoration: underline;
+	}
+nav li a:hover, a:active, a:focus { 
+	color: #F7CA18;
+	text-decoration: none;
+	}
+#MainContent{
+	margin:0px;
+	padding: 20px;
+	min-height:400px;
+	}
+section hr { 
+    border-width: 0.5px;
+    margin-bottom: 10px;
+	} 
+section h1{
+	margin-bottom: 8px;
+	}
+section p{
+	text-align: justify;
+	}
+section h2 {
+	font-size: 16px;
+	margin-bottom: 5px;
+	}
+section h3{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: lighter;
+	line-height: 5px;
+	}
+section h4{
+	font-size: 13px;
+	font-style: italic;
+	font-weight: lighter;
+	}
+aside {
+	float: right;
+	width: 26%;
+	font-size: 12px;
+	}
+aside > a{
+	background-color: #F7CA18;
+	padding: 5px 10px 5px 10px;
+	color: #222;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 12px;
+	}
+aside > hr{
+	margin: 20px 0px 20px 0px;	
+	}
+button {
+	background: #F7CA18;
+	color: #222;
+	padding: 0 10px 0 10px;
+	width: 80px;
+	height: 30px;
+	border: 0px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 1px rgba(247,202,24,0.1);
+	}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+.container {
+    padding: 2px 16px;
+	}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+	}
+.DarkBar{
+	background-color: #F7CA18;
+	}
+.DarkBar > h2{
+	font-size: 14px;
+	float: left;
+	padding: 10px;
+	text-transform: italic;
+	}
+.DarkBar > button{
+	margin: 15px;
+	background-color: #222;
+	color: #FFFFFF;
+	}
+.LightBar{
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #CDCDCD;
+	}
+.LightBar > h2{
+	font-size: 14px;
+	color: #222;
+	float: left;
+	padding: 10px;
+	text-transform: italic;
+	}
+.LightBar > button{
+	margin: 15px;
+	background-color: #F7CA18;
+	color: #222;
+	}
+.column {
+	margin:10px;
+	width: 70%;
+	float: left;
+	}
+.column-group {
+	margin:10px;
+	float: left;
+	width: 27%;
+	}
+.catalogue{
+	border-style: dotted;
+	border-width: 1px;
+	padding: 10px;
+	border-color: #CDCDCD;
+	}
+.catalogue > h1{
+	font-size: 14px;
+	padding-left: 10px;
+	}
+.catalogue > p{
+	float: left;
+	padding-left: 7px;
+	font-size: 12px;
+	}
+.catalogue > button{
+	font-size: 12px;
+	width: 50px;
+	margin-top: 8px;
+	height: 20px;
+	}
+#Catalogue{
+	max-width: 200px;
+	max-height: 100px;
+	}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 95%;
+	height: 120px;
+	margin: 10px;
+	text-align: center;
+	font-size: 14px;
+	}
+.card img{
+	margin-top: 10px;
+	width: 100px;
+	height: auto;
+	float: left;
+	padding: 10px;
+	}
+.card button{
+	margin: 10px;
+	float: left;
+	}
+.CardContent{
+	display: table-cell;
+	}
+.cardgroup {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    text-align: center;
+	}
+.form-group {
+  margin-bottom: 10px;
+	}
+.form-control {
+  display: block;
+  width: 95%;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  margin-top: 10px;
+	}
+.AboutImages{
+	margin-top: 65px;
+	max-width:200px;
+	float: left;
+	}
+.MidPage{
+	max-width: 47%;
+	display: inline;
+	float: right;
+	padding: 10px;
+	}
+.AboutButtons{
+	float: left; 
+	width: 150px; 
+	margin-right: 20px;
+	}
+footer{
+	margin: 0px;
+	min-height: 100px;
+	background: #000;
+	padding: 20px;
+	color: #F4F4F4;	
+	}
+footer > h1 {
+	font-size: 12px;
+	font-weight: lighter;
+	margin-bottom: 10px;
+	}
+footer > h2 {
+	font-size: 12px;
+	color: #F4F4F4;
+	font-weight: lighter;
+	}
+footer > a {
+	font-size: 12px;
+	color: #F7CA18;
+	text-decoration: none;
+	}
+footer > p{
+	}
+footer img{
+	width: 20px;
+	margin-left: 10px;
+	float: right;
+	}
+/* CSS Document */
